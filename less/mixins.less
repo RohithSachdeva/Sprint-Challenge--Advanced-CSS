@@ -1,1 +1,13 @@
 // Mixins Here
+
+.custom-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+  }
+  
+  .fonts(@size, @fam, @color){
+    font-size:@size;
+    font-family:@fam;
+    color:@color;
+  }
