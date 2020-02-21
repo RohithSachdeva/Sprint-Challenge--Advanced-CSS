@@ -186,6 +186,11 @@ p {
   width: 31%;
   margin-bottom: 0.5em;
 }
+@media (max-width:500px) {
+  .navlinks {
+    width: 90%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -249,6 +254,10 @@ footer {
   padding-top: 2%;
   font-size: 1.4em;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: lime;
+  color: red;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -259,3 +268,11 @@ footer {
   border-radius: 10px;
 }
 /* Mobile Styling */
+@media (max-width:500px) {
+  .walk {
+    display: flex;
+  }
+  .walk-text {
+    width: 100%;
+  }
+}
