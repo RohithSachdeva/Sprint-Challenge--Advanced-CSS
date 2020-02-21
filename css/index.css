@@ -269,10 +269,18 @@ footer {
 }
 /* Mobile Styling */
 @media (max-width:500px) {
-  .walk {
+  #walk {
     display: flex;
-  }
-  .walk-text {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    padding: 10px 10px;
     width: 100%;
+  }
+  #walk-text {
+    width: 90%;
+  }
+  #walk-img {
+    width: 100%;
+    margin: none;
   }
 }
