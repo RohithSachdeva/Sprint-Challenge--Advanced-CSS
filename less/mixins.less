@@ -1,13 +1,23 @@
 // Mixins Here
 
-.custom-layout(@justify, @align) {
+.flex(@justify, @align) {
     display: flex;
     justify-content: @justify;
     align-items: @align;
   }
   
-  .fonts(@size, @fam, @color){
+  .fontstyle(@size, @color){
     font-size:@size;
-    font-family:@fam;
     color:@color;
   }
+
+.btn-style(@border, @background) {
+border: @border;
+background-color: @background;
+}
+
+/*  LESS Parametric Mixin: create a parametric mixin that is used to create the sign up button styles.
+
+ Use at least 2 parameters to create your button
+
+ Create a hover state that swaps the background color and font color of the base button styles. */
